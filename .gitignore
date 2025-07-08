@@ -1,0 +1,33 @@
+# === Backend specific ignores ===
+
+# Node modules
+backend/node_modules/
+
+# Build output
+backend/dist/
+backend/build/
+
+# Environment variables
+backend/.env
+backend/.env.*
+
+# Logs
+backend/logs/
+backend/*.log
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# Secrets
+backend/token.json
+backend/credentials.json
+
+# IDE & OS junk
+backend/.vscode/
+backend/.idea/
+backend/*.swp
+backend/.DS_Store
+backend/Thumbs.db
+
+# Coverage
+backend/coverage/
